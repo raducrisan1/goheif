@@ -4,6 +4,7 @@ package libde265
 //#cgo arm CXXFLAGS: -Ilibde265 -I. -std=c++11 -DHAVE_ARM
 //#cgo arm64 CXXFLAGS: -Ilibde265 -I. -std=c++11
 //#cgo CFLAGS: -I.
+//#cgo darwin LDFLAGS: -Wl,-ld_classic
 // #include <stdint.h>
 // #include <stdlib.h>
 // #include "libde265/de265.h"
